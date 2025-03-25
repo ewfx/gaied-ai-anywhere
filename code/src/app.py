@@ -1,7 +1,6 @@
 import streamlit as st
 import requests
 import os
-import json
 
 # API URL
 PROCESS_URL = "http://127.0.0.1:8000/process_document/"

@@ -1,10 +1,6 @@
 from fastapi import FastAPI, HTTPException
-import faiss
-import pandas as pd
-import numpy as np
 from pydantic import BaseModel
 import os
-import requests
 from utils.util import process_file
 from graph import agentic_email_triage
 # Initialize FastAPI
