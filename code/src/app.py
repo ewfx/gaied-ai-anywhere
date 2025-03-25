@@ -83,7 +83,7 @@ st.markdown(f"""
     </div>
 """, unsafe_allow_html=True)
 
-uploaded_file = st.file_uploader("Choose a file", type=["eml", "msg", "pdf", "docx", "csv", "xlsx", "png", "jpg", "jpeg"])
+uploaded_file = st.file_uploader("Choose a file", type=["eml", "msg", "pdf", "docx", "csv", "xlsx", "png", "jpg", "jpeg","txt", "doc"])
 
 if uploaded_file:
     # Save file to fixed directory
