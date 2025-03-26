@@ -73,33 +73,33 @@ This project leverages modern technologies and frameworks to ensure efficiency, 
 
 Backend & API
 
-FastAPI – High-performance web framework for API development.
+🔹 FastAPI – High-performance web framework for API development.
 
-Pydantic – Data validation and parsing for API requests.
+🔹 Pydantic – Data validation and parsing for API requests.
 
 Frontend (UI)
 
-Streamlit – Interactive web-based UI for document triage.
+🔹 Streamlit – Interactive web-based UI for document triage.
 
-Custom CSS – Enhancing the UI with modern, next-gen styling.
+🔹 Custom CSS – Enhancing the UI with modern, next-gen styling.
 
 Document Processing & Extraction
 
-extract-msg – Parses .msg email files.
+🔹 extract-msg – Parses .msg email files.
 
-email.parser – Extracts content from .eml files.
+🔹 email.parser – Extracts content from .eml files.
 
-PyMuPDF (fitz) – Reads and extracts text from PDFs.
+🔹 PyMuPDF (fitz) – Reads and extracts text from PDFs.
 
-python-docx – Extracts text from Word documents.
+🔹 python-docx – Extracts text from Word documents.
 
-pandas – Handles .csv and .xlsx file processing.
+🔹 pandas – Handles .csv and .xlsx file processing.
 
-Pillow & pytesseract – OCR for extracting text from images.
+🔹 Pillow & pytesseract – OCR for extracting text from images.
 
-LangChain & LangGraph – Used for AI-driven classification and automation.
+🔹 LangChain & LangGraph – Used for AI-driven classification and automation.
 
-LangChain-Docling – Efficient document handling and analysis.
+🔹 LangChain-Docling – Efficient document handling and analysis.
 
 ## 🚧 Challenges We Faced
 
