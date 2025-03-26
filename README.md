@@ -14,7 +14,20 @@
 ---
 
 ## 🎯 Introduction
-A brief overview of your project and its purpose. Mention which problem statement are your attempting to solve. Keep it concise and engaging.
+
+The Gen AI Orchestrator is designed to automate the triage and routing of emails and documents, leveraging AI-powered extraction, classification, and processing. The system streamlines workflows by analyzing unstructured data from multiple formats and providing structured insights for better decision-making.
+
+🔍 Problem Statement
+
+Manual email and document processing is time-consuming, error-prone, and inefficient, especially in industries like banking, finance, and customer support. Organizations receive thousands of emails daily with attachments in different formats, requiring human intervention for:
+
+🔹 Understanding the content (loan requests, transaction authorizations, fee payments, etc.)
+
+🔹 Extracting important data from PDFs, Word documents, Excel sheets, and images
+
+🔹 Classifying requests and routing them to the appropriate department
+
+This solution eliminates manual effort by using AI-driven automation to process, extract, and categorize emails and their attachments efficiently.
 
 ## 🎥 Demo
 🔗 [Live Demo](#) (if applicable)  
