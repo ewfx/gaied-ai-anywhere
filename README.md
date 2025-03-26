@@ -129,11 +129,13 @@ Solution: Optimized API calls, enabled streaming, and used batch processing for 
    ```
 2. Install dependencies  
    ```sh
+   Ensure you have upgraded pip, setuptools, wheel
    pip install -r requirements.txt (for Python)
    Even after isntalling the above you might have to install pytesseract as below on Windows,
       1) tesseract from https://github.com/UB-Mannheim/tesseract/wiki
       2) locate its path during installation. "C:\Program Files\Tesseract-OCR\" was the default path for me (it might vary with yours so please keep a note of it)
       3) Add the .exe to this "pytesseract.pytesseract.tesseract_cmd" variable in code\src\utils\util.py (as of now it is populated with my default path)
+   And also make sure to create a .env file under src and add a your groq key like GROQ_API_KEY= "#key"
    ```
 3. Run the project  
    ```sh
