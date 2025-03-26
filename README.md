@@ -40,16 +40,6 @@ This solution eliminates manual effort by using AI-driven automation to process,
 
 The inspiration for this project came from the inefficiencies and challenges faced in email and document triage within industries like banking, finance, and customer support. Organizations receive a high volume of emails daily, often with complex attachments in various formats. Manually processing these emails is:
 
-Time-consuming ⏳ – Employees must open, read, and classify emails manually.
-
-Error-prone ❌ – Important details can be missed, misclassified, or delayed.
-
-Resource-intensive 💰 – Requires dedicated personnel, increasing operational costs.
-
-🚀 The Problem We're Solving
-
-Manual document and email processing creates multiple challenges for businesses:
-
 📌 Time-Consuming – Employees must manually review, extract, and classify emails and documents.
 
 ⚠️ Error-Prone – Critical details can be misclassified or overlooked, leading to operational inefficiencies.
