@@ -48,7 +48,6 @@ Resource-intensive 💰 – Requires dedicated personnel, increasing operational
 
 🚀 The Problem We're Solving
 This project eliminates manual document and email processing by leveraging AI-powered automation to:
-
 ✅ Extract relevant information from PDFs, Word documents, Excel sheets, and images.
 ✅ Classify and route emails to the correct department (e.g., loan adjustments, fee payments, transaction approvals).
 ✅ Handle multiple file formats like .eml, .msg, .pdf, .xlsx, .csv, .jpg, etc.
