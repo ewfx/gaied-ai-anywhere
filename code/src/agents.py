@@ -1,3 +1,5 @@
+from dotenv import load_dotenv
+load_dotenv()
 from langchain_core.prompts import PromptTemplate
 from langchain.chat_models import init_chat_model
 from models import (
