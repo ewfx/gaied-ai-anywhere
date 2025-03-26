@@ -15,7 +15,7 @@
 
 ## 🎯 Introduction
 
-The Gen AI Orchestrator is designed to automate the triage and routing of emails and documents, leveraging AI-powered extraction, classification, and processing. The system streamlines workflows by analyzing unstructured data from multiple formats and providing structured insights for better decision-making.
+The Agentic AI Orchestrator is designed to automate the triage and routing of emails and documents, leveraging AI-powered extraction, classification, and processing. The system streamlines workflows by analyzing unstructured data from multiple formats and providing structured insights for better decision-making.
 
 🔍 Problem Statement
 
@@ -37,7 +37,23 @@ This solution eliminates manual effort by using AI-driven automation to process,
 ![Screenshot 1](link-to-image)
 
 ## 💡 Inspiration
-What inspired you to create this project? Describe the problem you're solving.
+
+The inspiration for this project came from the inefficiencies and challenges faced in email and document triage within industries like banking, finance, and customer support. Organizations receive a high volume of emails daily, often with complex attachments in various formats. Manually processing these emails is:
+
+Time-consuming ⏳ – Employees must open, read, and classify emails manually.
+
+Error-prone ❌ – Important details can be missed, misclassified, or delayed.
+
+Resource-intensive 💰 – Requires dedicated personnel, increasing operational costs.
+
+🚀 The Problem We're Solving
+This project eliminates manual document and email processing by leveraging AI-powered automation to:
+✅ Extract relevant information from PDFs, Word documents, Excel sheets, and images.
+✅ Classify and route emails to the correct department (e.g., loan adjustments, fee payments, transaction approvals).
+✅ Handle multiple file formats like .eml, .msg, .pdf, .xlsx, .csv, .jpg, etc.
+✅ Detect and handle duplicates using an AI agent instead of database storage.
+
+The goal is to streamline business workflows, reduce human intervention, and increase efficiency in document management. 🚀
 
 ## ⚙️ What It Does
 
@@ -45,14 +61,45 @@ What inspired you to create this project? Describe the problem you're solving.
 
 📝 Smart Data Extraction: Parses content using OCR (for images/PDFs).
 
-📂 Gen-AI Based Classification: Categorizes emails and documents into predefined types.
+📂 Agentic-AI Based Classification: Categorizes emails and documents into predefined types.
 
 ⚡ FastAPI Backend: Provides a scalable API to process files in real-time.
 
 🎨 Next-Gen Streamlit UI: A modern, sleek, and intuitive frontend for easy interaction.
 
 ## 🛠️ How We Built It
-Briefly outline the technologies, frameworks, and tools used in development.
+
+This project leverages modern technologies and frameworks to ensure efficiency, scalability, and usability:
+
+Backend & API
+
+FastAPI – High-performance web framework for API development.
+
+Pydantic – Data validation and parsing for API requests.
+
+Frontend (UI)
+
+Streamlit – Interactive web-based UI for document triage.
+
+Custom CSS – Enhancing the UI with modern, next-gen styling.
+
+Document Processing & Extraction
+
+extract-msg – Parses .msg email files.
+
+email.parser – Extracts content from .eml files.
+
+PyMuPDF (fitz) – Reads and extracts text from PDFs.
+
+python-docx – Extracts text from Word documents.
+
+pandas – Handles .csv and .xlsx file processing.
+
+Pillow & pytesseract – OCR for extracting text from images.
+
+LangChain & LangGraph – Used for AI-driven classification and automation.
+
+LangChain-Docling – Efficient document handling and analysis.
 
 ## 🚧 Challenges We Faced
 
