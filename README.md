@@ -40,13 +40,41 @@ This solution eliminates manual effort by using AI-driven automation to process,
 What inspired you to create this project? Describe the problem you're solving.
 
 ## ⚙️ What It Does
-Explain the key features and functionalities of your project.
+
+📩 Universal Email & Document Extraction: Handles .eml, .msg, .pdf, .docx, .doc, .xlsx, .csv, .png, .jpg, .txt files.
+
+📝 Smart Data Extraction: Parses content using OCR (for images/PDFs).
+
+📂 Gen-AI Based Classification: Categorizes emails and documents into predefined types.
+
+⚡ FastAPI Backend: Provides a scalable API to process files in real-time.
+
+🎨 Next-Gen Streamlit UI: A modern, sleek, and intuitive frontend for easy interaction.
 
 ## 🛠️ How We Built It
 Briefly outline the technologies, frameworks, and tools used in development.
 
 ## 🚧 Challenges We Faced
-Describe the major technical or non-technical challenges your team encountered.
+
+1️⃣ Handling Multiple Document Formats
+
+Extracting content from .msg and .eml files required custom parsing.
+
+OCR-based text extraction for images and scanned PDFs was slow.
+
+Solution: Used extract-msg, pymupdf, and pytesseract to handle different formats efficiently.
+
+2️⃣ Duplicate Detection
+
+Faced challenges in deciding whether to store duplicates in a database.
+
+Solution: Used an AI agent to handle duplicate detection dynamically without relying on DB storage.
+
+3️⃣ Scalability & Performance
+
+Large files and multiple requests slowed down processing.
+
+Solution: Optimized API calls, enabled streaming, and used batch processing for efficient document handling.
 
 ## 🏃 How to Run
 1. Clone the repository  
