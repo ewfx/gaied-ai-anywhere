@@ -34,7 +34,7 @@ This solution eliminates manual effort by using AI-driven automation to process,
 📹 [Video Demo](#) (if applicable)  
 🖼️ Screenshots:
 
-![Screenshot 1](link-to-image)
+![Screenshot 1](https://github.com/ewfx/gaied-ai-anywhere/blob/main/artifacts/demo/snapshot.png)
 
 ## 💡 Inspiration
 
