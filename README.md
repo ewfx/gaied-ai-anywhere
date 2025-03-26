@@ -38,22 +38,27 @@ Describe the major technical or non-technical challenges your team encountered.
 ## 🏃 How to Run
 1. Clone the repository  
    ```sh
-   git clone https://github.com/your-repo.git
+   git clone https://github.com/ewfx/gaied-ai-anywhere.git
    ```
 2. Install dependencies  
    ```sh
-   npm install  # or pip install -r requirements.txt (for Python)
+   pip install -r requirements.txt (for Python)
+   Even after isntalling the above you might have to install pytesseract as below on Windows,
+      1) tesseract from https://github.com/UB-Mannheim/tesseract/wiki
+      2) locate its path during installation. "C:\Program Files\Tesseract-OCR\" was the default path for me (it might vary with yours so please keep a note of it)
+      3) Add the .exe to this "pytesseract.pytesseract.tesseract_cmd" variable in code\src\utils\util.py (as of now it is populated with my default path)
    ```
 3. Run the project  
    ```sh
-   npm start  # or python app.py
+   On one terminal navigate to code\src and run - uvicorn faiss_api:app --host 0.0.0.0 --port 8000 --reload
+   On other terminal navigate to code\src and run - streamlit run app.py
    ```
 
 ## 🏗️ Tech Stack
-- 🔹 Frontend: React / Vue / Angular
-- 🔹 Backend: Node.js / FastAPI / Django
-- 🔹 Database: PostgreSQL / Firebase
-- 🔹 Other: OpenAI API / Twilio / Stripe
+- 🔹 Frontend: Streamlit
+- 🔹 Backend: FastAPI
+- 🔹 Database: didn't require a database
+- 🔹 Other: 
 
 ## 👥 Team
 - **Your Name** - [GitHub](#) | [LinkedIn](#)
