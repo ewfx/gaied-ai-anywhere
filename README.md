@@ -58,7 +58,7 @@ Describe the major technical or non-technical challenges your team encountered.
 - 🔹 Frontend: Streamlit
 - 🔹 Backend: FastAPI
 - 🔹 Database: didn't require a database
-- 🔹 Other: 
+- 🔹 Other: pytesseract, langchain, langgraph
 
 ## 👥 Team
 - Yegyanathan - [GitHub](https://github.com/Yegy001)
