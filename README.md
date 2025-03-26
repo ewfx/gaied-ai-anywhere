@@ -47,13 +47,22 @@ Error-prone ❌ – Important details can be missed, misclassified, or delayed.
 Resource-intensive 💰 – Requires dedicated personnel, increasing operational costs.
 
 🚀 The Problem We're Solving
-This project eliminates manual document and email processing by leveraging AI-powered automation to:
-✅ Extract relevant information from PDFs, Word documents, Excel sheets, and images.
-✅ Classify and route emails to the correct department (e.g., loan adjustments, fee payments, transaction approvals).
-✅ Handle multiple file formats like .eml, .msg, .pdf, .xlsx, .csv, .jpg, etc.
-✅ Detect and handle duplicates using an AI agent instead of database storage.
 
-The goal is to streamline business workflows, reduce human intervention, and increase efficiency in document management. 🚀
+Manual document and email processing creates multiple challenges for businesses:
+
+📌 Time-Consuming – Employees must manually review, extract, and classify emails and documents.
+
+⚠️ Error-Prone – Critical details can be misclassified or overlooked, leading to operational inefficiencies.
+
+💰 Resource-Intensive – Requires dedicated personnel, increasing costs and slowing down decision-making.
+
+📂 Unstructured Data Complexity – Documents come in different formats (.eml, .msg, .pdf, .csv, .xlsx, images) requiring different extraction methods.
+
+🔄 Duplicate Processing Issues – Emails and attachments may be redundant, leading to repeated processing efforts.
+
+🔍 Lack of Intelligent Search & Routing – Difficulties in quickly retrieving and forwarding relevant data to the right departments.
+
+This project solves these challenges by using AI-powered automation to extract, classify, and route emails and documents efficiently.
 
 ## ⚙️ What It Does
 
