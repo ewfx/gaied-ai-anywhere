@@ -96,7 +96,7 @@ Document Processing & Extraction
 
 🔹 Pillow & pytesseract – OCR for extracting text from images.
 
-🔹 LangChain & LangGraph – Used for AI-driven classification and automation.
+🔹 LangChain & LangGraph – Used for Agentic AI-driven classification and automation.
 
 🔹 LangChain-Docling – Efficient document handling and analysis.
 
